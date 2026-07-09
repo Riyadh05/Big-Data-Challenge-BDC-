@@ -1,7 +1,5 @@
-.submission.csv
+submission.csv
 
 #dataset
-.test
-.train
-train/
-.train/
+test/
+train/
