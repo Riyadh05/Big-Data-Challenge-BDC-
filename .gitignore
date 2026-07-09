@@ -1,5 +1,8 @@
 submission.csv
-
-#dataset
 test/
-train/
+train/
+
+# datasets
+*.jpg
+*.jpeg
+*.png
