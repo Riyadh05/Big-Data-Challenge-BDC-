@@ -6,3 +6,21 @@ train/
 *.jpg
 *.jpeg
 *.png
+
+# Python Caches & Virtual Environments
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+env/
+
+# Model Checkpoints
+models/
+*.pth
+*.pt
+
+# IDE / Jupyter Checkpoints
+.ipynb_checkpoints/
+.vscode/
+
