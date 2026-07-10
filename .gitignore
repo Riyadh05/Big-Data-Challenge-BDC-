@@ -1,26 +1,46 @@
-submission.csv
-test/
-train/
+# =============================================
+# DATA - Jangan di-push (ukurannya besar sekali)
+# =============================================
+data/train/
+data/test/
 
-# datasets
+# File gambar dimanapun lokasinya
 *.jpg
 *.jpeg
 *.png
+*.gif
+*.bmp
 
-# Python Caches & Virtual Environments
+# =============================================
+# OUTPUT - Hasil yang di-generate otomatis
+# =============================================
+submission.csv
+
+# File model (ukuran besar, simpan di cloud/drive saja)
+*.pth
+*.pt
+models/
+best_model.pth
+
+# =============================================
+# PYTHON - File cache & environment
+# =============================================
 __pycache__/
 *.py[cod]
 *$py.class
+*.pyc
+
+# Virtual environment (tiap orang buat sendiri)
 venv/
 .venv/
 env/
+ENV/
 
-# Model Checkpoints
-models/
-*.pth
-*.pt
-
-# IDE / Jupyter Checkpoints
-.ipynb_checkpoints/
+# =============================================
+# IDE & TOOLS
+# =============================================
 .vscode/
-
+.idea/
+*.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
